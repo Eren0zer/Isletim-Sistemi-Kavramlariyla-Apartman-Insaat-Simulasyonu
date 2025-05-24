@@ -1,27 +1,16 @@
 # Apartman İnşaatı Simülasyonu (C dili - Process & Thread Modeli)
 
-## İçindekiler
-- [Proje Bilgisi](#proje-bilgisi)  
-- [Amaç](#amac)  
-- [Mimari](#mimari)  
-- [Ornek Simulasyon Ciktisi](#ornek-simulasyon-ciktisi)  
-- [Kullanim Talimatlari](#kullanim-talimatlari)  
-- [Dosya Yapisi](#dosya-yapisi)  
-- [Hata Senaryolari ve Yeniden Baslatmalar](#hata-senaryolari-ve-yeniden-baslatmalar)  
-- [Gelistirme Notlari](#gelistirme-notlari)  
-- [Proje Klasor Yapisi](#proje-klasor-yapisi)
-
-
 ---
 
 ## 📅 Proje Bilgisi
 
-**Ders:** İşletim Sistemleri (2024-2025 Bahar Dönemi)
+**Ders:** İşletim Sistemleri (2024-2025 Bahar Dönemi) <br>
 **Hazırlayanlar:**
 
 * Yasin Ekici (21360859029)
 * Eren Özer (22360859030)
-<br>  **Grup No:** 8
+   
+Grup No: 8
 
 ---
 
