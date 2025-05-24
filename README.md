@@ -2,16 +2,15 @@
 
 ## İçindekiler
 - [Proje Bilgisi](#proje-bilgisi)  
-- [Amaç](#amaç)  
-- [Mimarî](#sistem-mimarisi)  
-- [Kurulum & Çalıştırma](#kurulum--çalıştırma)  
-- [Konfigürasyon](#konfigürasyon)  
-- [Kullanım Örnekleri](#kullanım-örnekleri)  
-- [Dosya Yapısı](#dosya-yapısı)  
-- [Log & Hata Senaryoları](#log--hata-senaryoları)  
-- [Geliştirme Notları](#geliştirme-notları)  
-- [Gelecekteki Geliştirmeler](#gelecekteki-geliştirmeler)  
-- [Katkıda Bulunma & Lisans](#katkıda-bulunma--lisans)  
+- [Amaç](#amac)  
+- [Mimari](#mimari)  
+- [Ornek Simulasyon Ciktisi](#ornek-simulasyon-ciktisi)  
+- [Kullanim Talimatlari](#kullanim-talimatlari)  
+- [Dosya Yapisi](#dosya-yapisi)  
+- [Hata Senaryolari ve Yeniden Baslatmalar](#hata-senaryolari-ve-yeniden-baslatmalar)  
+- [Gelistirme Notlari](#gelistirme-notlari)  
+- [Proje Klasor Yapisi](#proje-klasor-yapisi)
+
 
 ---
 
