@@ -156,8 +156,8 @@ make error
 make scale
 make profile
 ```
-
 Kodların aynı anda çalıştırılmamasına dikkat edilmesi gerek. Tek tek çalıştırılmalı.
+
 ---
 
 ## 🔍 Dosya Açıklamaları
@@ -213,7 +213,26 @@ apartman-simulasyonu/
 ├── daire.c
 ├── main.c
 ├── Makefile
-└── log.txt (çalışma sırasında otomatik oluşturulur)
+├── insa_suresi.csv (çalışma sırasında otomatik oluşturulur)
+├── report.txt (çalışma sırasında otomatik oluşturulur)
+├── log.txt (çalışma sırasında otomatik oluşturulur)
+│
+├── scripts/
+│ ├── error_sweep.sh
+│ ├── param_sweep.sh
+│ ├── profile.sh
+│ ├── repeated.sh
+│ └── scale_sweep.sh
+│
+├── results/   (çalışma sırasında otomatik oluşturulur)
+│ ├── error_sweep.csv 
+│ ├── param_sweep.csv 
+│ ├── resource_usage.log 
+│ ├── scale_sweep.csv 
+│ └── summary.csv
+│
+├── Ekran Görüntüleri/
+  └── ...
 ```
 
 
