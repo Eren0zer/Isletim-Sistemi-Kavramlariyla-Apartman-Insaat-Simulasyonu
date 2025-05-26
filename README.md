@@ -201,29 +201,83 @@ Aşağıda simülasyonun çıktılarından alınan bazı ekran görüntüleri bu
 
 ### 🖥️ Terminal Çıktıları
 
-| terminal_ciktisi_1              | terminal_ciktisi_2              | terminal_ciktisi_3              |
-|----------------------------------|----------------------------------|----------------------------------|
-| ![term1](./images/terminal_ciktisi_1.png) | ![term2](./images/terminal_ciktisi_2.png) | ![term3](./images/terminal_ciktisi_3.png) |
+<table>
+  <tr>
+    <td align="center"><strong>terminal_ciktisi_1</strong></td>
+    <td align="center"><strong>terminal_ciktisi_2</strong></td>
+    <td align="center"><strong>terminal_ciktisi_3</strong></td>
+  </tr>
+  <tr>
+    <td><img src="./images/terminal_ciktisi_1.png" width="300"/></td>
+    <td><img src="./images/terminal_ciktisi_2.png" width="300"/></td>
+    <td><img src="./images/terminal_ciktisi_3.png" width="300"/></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>terminal_ciktisi_4</strong></td>
+    <td align="center"><strong>terminal_ciktisi_5</strong></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><img src="./images/terminal_ciktisi_4.png" width="300"/></td>
+    <td><img src="./images/terminal_ciktisi_5.png" width="300"/></td>
+    <td></td>
+  </tr>
+</table>
 
-| terminal_ciktisi_4              | terminal_ciktisi_5              |
-|----------------------------------|----------------------------------|
-| ![term4](./images/terminal_ciktisi_4.png) | ![term5](./images/terminal_ciktisi_5.png) |
+---
 
 ### 🧾 Loglar ve Raporlar
 
-| `insa_suresi.csv`                | `log.txt`                       | `report.txt`                     |
-|----------------------------------|----------------------------------|----------------------------------|
-| ![insa_suresi_csv](./images/insa_suresi_csv.png) | ![log_txt](./images/log_txt.png) | ![report_txt](./images/report_txt.png) |
+<table>
+  <tr>
+    <td align="center"><strong>insa_suresi.csv</strong></td>
+    <td align="center"><strong>log.txt</strong></td>
+    <td align="center"><strong>report.txt</strong></td>
+  </tr>
+  <tr>
+    <td><img src="./images/insa_suresi_csv.png" width="300"/></td>
+    <td><img src="./images/log_txt.png" width="300"/></td>
+    <td><img src="./images/report_txt.png" width="300"/></td>
+  </tr>
+</table>
+
+---
 
 ### 🔁 Betik ve CSV Çıktıları
 
-| `repeated.sh`                   | `summary.csv` çıktısı           | `param_sweep.csv`               |
-|----------------------------------|----------------------------------|----------------------------------|
-| ![repeated_sh](./images/repeated_sh.png) | ![summary_csv](./images/repeated_sh_ciktisi_summary_csv.png) | ![param_sweep_csv](./images/param_sweep_csv.png) |
+<table>
+  <tr>
+    <td align="center"><strong>repeated.sh</strong></td>
+    <td align="center"><strong>summary.csv çıktısı</strong></td>
+    <td align="center"><strong>param_sweep.csv</strong></td>
+  </tr>
+  <tr>
+    <td><img src="./images/repeated_sh.png" width="300"/></td>
+    <td><img src="./images/repeated_sh_ciktisi_summary_csv.png" width="300"/></td>
+    <td><img src="./images/param_sweep_csv.png" width="300"/></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>param_sweep.sh</strong></td>
+    <td align="center"><strong>param_sweep.csv</strong></td>
+    <td align="center"><strong>scale_sweep.sh</strong></td>
+  </tr>
+  <tr>
+    <td><img src="./images/param_sweep_sh.png" width="300"/></td>
+    <td><img src="./images/param_sweep_csv.png" width="300"/></td>
+    <td><img src="./images/scale_sweep_sh.png" width="300"/></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>scale_sweep.csv</strong></td>
+    <td align="center"><strong>profile.sh</strong></td>
+    <td align="center"><strong>resource_usage.log</strong></td>
+  </tr>
+  <tr>
+    <td><img src="./images/scale_sweep_csv.png" width="300"/></td>
+    <td><img src="./images/profile_sh.png" width="300"/></td>
+    <td><img src="./images/profile_sh_ciktisi_resource_usage_log.png" width="300"/></td>
+  </tr>
+</table>
 
-| `param_sweep.sh` terminal çıktısı |
-|----------------------------------|
-| ![param_sweep_sh_ciktisi](./images/param_sweep_sh_ciktisi.png) |
 
 
 ---
