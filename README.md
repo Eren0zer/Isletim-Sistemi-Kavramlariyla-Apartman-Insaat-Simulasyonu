@@ -262,7 +262,7 @@ Aşağıda simülasyonun çıktılarından alınan bazı ekran görüntüleri bu
     <td align="center"><strong>scale_sweep.sh</strong></td>
   </tr>
   <tr>
-    <td><img src="./images/param_sweep_sh.png" width="300"/></td>
+    <td><img src="./images/param_sweep_sh_ciktisi.png" width="300"/></td>
     <td><img src="./images/param_sweep_csv.png" width="300"/></td>
     <td><img src="./images/scale_sweep_sh.png" width="300"/></td>
   </tr>
