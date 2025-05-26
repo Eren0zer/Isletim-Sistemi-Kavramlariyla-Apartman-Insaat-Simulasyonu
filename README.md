@@ -248,8 +248,8 @@ Aşağıda simülasyonun çıktılarından alınan bazı ekran görüntüleri bu
 <table>
   <tr>
     <td align="center"><strong>repeated.sh</strong></td>
-    <td align="center"><strong>summary.csv çıktısı</strong></td>
-    <td align="center"><strong>param_sweep.sh terminal çıktısı</strong></td>
+    <td align="center"><strong>summary.csv</strong></td>
+    <td align="center"><strong>param_sweep.sh</strong></td>
   </tr>
   <tr>
     <td><img src="./images/repeated_sh.png" width="300"/></td>
@@ -259,7 +259,7 @@ Aşağıda simülasyonun çıktılarından alınan bazı ekran görüntüleri bu
 
   <tr>
     <td align="center"><strong>param_sweep.csv</strong></td>
-    <td align="center"><strong>error_sweep.sh terminal çıktısı</strong></td>
+    <td align="center"><strong>error_sweep.sh</strong></td>
     <td align="center"><strong>error_sweep.csv</strong></td>
   </tr>
   <tr>
@@ -269,7 +269,7 @@ Aşağıda simülasyonun çıktılarından alınan bazı ekran görüntüleri bu
   </tr>
 
   <tr>
-    <td align="center"><strong>scale_sweep.sh terminal çıktısı</strong></td>
+    <td align="center"><strong>scale_sweep.sh</strong></td>
     <td align="center"><strong>scale_sweep.csv</strong></td>
     <td align="center"><strong>profile.sh</strong></td>
   </tr>
