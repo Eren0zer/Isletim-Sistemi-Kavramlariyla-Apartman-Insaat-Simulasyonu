@@ -243,40 +243,50 @@ Aşağıda simülasyonun çıktılarından alınan bazı ekran görüntüleri bu
 
 ---
 
-### 🔁 Betik ve CSV Çıktıları
+## 🔁 Betik ve CSV Çıktıları
 
 <table>
   <tr>
     <td align="center"><strong>repeated.sh</strong></td>
     <td align="center"><strong>summary.csv çıktısı</strong></td>
-    <td align="center"><strong>param_sweep.csv</strong></td>
+    <td align="center"><strong>param_sweep.sh terminal çıktısı</strong></td>
   </tr>
   <tr>
     <td><img src="./images/repeated_sh.png" width="300"/></td>
     <td><img src="./images/repeated_sh_ciktisi_summary_csv.png" width="300"/></td>
     <td><img src="./images/param_sweep_sh_ciktisi.png" width="300"/></td>
   </tr>
+
   <tr>
-    <td align="center"><strong>param_sweep.sh</strong></td>
     <td align="center"><strong>param_sweep.csv</strong></td>
-    <td align="center"><strong>scale_sweep.sh</strong></td>
+    <td align="center"><strong>error_sweep.sh terminal çıktısı</strong></td>
+    <td align="center"><strong>error_sweep.csv</strong></td>
   </tr>
   <tr>
-    <td><img src="./images/" width="300"/></td>
     <td><img src="./images/param_sweep_csv.png" width="300"/></td>
-    <td><img src="./images/scale_sweep_sh.png" width="300"/></td>
+    <td><img src="./images/error_sweep_sh.png" width="300"/></td>
+    <td><img src="./images/error_sweep_csv.png" width="300"/></td>
   </tr>
+
   <tr>
+    <td align="center"><strong>scale_sweep.sh terminal çıktısı</strong></td>
     <td align="center"><strong>scale_sweep.csv</strong></td>
     <td align="center"><strong>profile.sh</strong></td>
-    <td align="center"><strong>resource_usage.log</strong></td>
   </tr>
   <tr>
+    <td><img src="./images/scale_sweep_sh.png" width="300"/></td>
     <td><img src="./images/scale_sweep_csv.png" width="300"/></td>
     <td><img src="./images/profile_sh.png" width="300"/></td>
-    <td><img src="./images/profile_sh_ciktisi_resource_usage_log.png" width="300"/></td>
+  </tr>
+
+  <tr>
+    <td align="center" colspan="3"><strong>profile_sh çıktı: resource_usage.log</strong></td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center"><img src="./images/profile_sh_ciktisi_resource_usage_log.png" width="300"/></td>
   </tr>
 </table>
+
 
 
 
