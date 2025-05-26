@@ -195,6 +195,39 @@ Kodların aynı anda çalıştırılmamasına dikkat edilmesi gerek. Tek tek ça
 
 ---
 
+## 📸 Örnek Çıktı ve Görseller
+
+Aşağıda simülasyonun çıktılarından alınan bazı ekran görüntüleri bulunmaktadır. Bu görseller loglar, csv içerikleri ve terminal çıktılarının örneklerini sunar.
+
+### 🖥️ Terminal Çıktıları
+
+| terminal_ciktisi_1              | terminal_ciktisi_2              | terminal_ciktisi_3              |
+|----------------------------------|----------------------------------|----------------------------------|
+| ![term1](./images/terminal_ciktisi_1.png) | ![term2](./images/terminal_ciktisi_2.png) | ![term3](./images/terminal_ciktisi_3.png) |
+
+| terminal_ciktisi_4              | terminal_ciktisi_5              |
+|----------------------------------|----------------------------------|
+| ![term4](./images/terminal_ciktisi_4.png) | ![term5](./images/terminal_ciktisi_5.png) |
+
+### 🧾 Loglar ve Raporlar
+
+| `insa_suresi.csv`                | `log.txt`                       | `report.txt`                     |
+|----------------------------------|----------------------------------|----------------------------------|
+| ![insa_suresi_csv](./images/insa_suresi_csv.png) | ![log_txt](./images/log_txt.png) | ![report_txt](./images/report_txt.png) |
+
+### 🔁 Betik ve CSV Çıktıları
+
+| `repeated.sh`                   | `summary.csv` çıktısı           | `param_sweep.csv`               |
+|----------------------------------|----------------------------------|----------------------------------|
+| ![repeated_sh](./images/repeated_sh.png) | ![summary_csv](./images/repeated_sh_ciktisi_summary_csv.png) | ![param_sweep_csv](./images/param_sweep_csv.png) |
+
+| `param_sweep.sh` terminal çıktısı |
+|----------------------------------|
+| ![param_sweep_sh_ciktisi](./images/param_sweep_sh_ciktisi.png) |
+
+
+---
+
 ## 🛠 Geliştirme Notları
 
 * Tüm paylaşımlı kaynaklara mutex ve semaphore mekanizmaları eklendi.
@@ -231,7 +264,7 @@ apartman-simulasyonu/
 │ ├── scale_sweep.csv 
 │ └── summary.csv
 │
-├── Ekran Görüntüleri/
+├── images/
   └── ...
 ```
 
