@@ -5,6 +5,8 @@ FILE *log_fp;
 
 // ➜ ANSI kaçış kodlarını atlayarak “plain” metin üreten yardımcı
 static void strip_ansi(const char *src, char *dst) {
+    // 1) src içindeki ANSI escape kodlarını atlayarak
+    // 2) temiz metni dst'ye kopyala
     while (*src) {
         if (*src == '\033' && src[1] == '[') {
             src += 2;
@@ -21,39 +23,41 @@ void log_console(const char *fmt, ...) {
     char buf[4096], plain[4096];
     va_list ap;
 
+    // 1) fmt ve args'i buf'a yazdır
     va_start(ap, fmt);
     vsnprintf(buf, sizeof(buf), fmt, ap);
     va_end(ap);
 
-    // Konsola renkli
+    // 2) Konsola renkli çıktı
     fputs(buf, stdout);
     fflush(stdout);
 
-    // Log için ANSI kodları at
+    // 3) Log için ANSI kodlarını temizleyip plain'a yaz
     strip_ansi(buf, plain);
     fputs(plain, log_fp);
     fflush(log_fp);
 }
+
 // 🔌 Elektrikçi semaforu ve durumu
 sem_t elektrikci_sem;
-int elektrikciler[ELEKTRIKCI_SAYISI] = {0};
+int elektrikciler[ELEKTRIKCI_SAYISI] = {0};          // Tüm elemanlar başlangıçta 0 (boşta)
 pthread_mutex_t elektrikci_kilit = PTHREAD_MUTEX_INITIALIZER;
 
 // 🚰 Su tesisatçısı semaforu ve durumu
 sem_t su_tesisatcisi_sem;
-int tesisatcilar[TESISATCI_SAYISI] = {0};
+int tesisatcilar[TESISATCI_SAYISI] = {0};            // Tüm elemanlar 0 ile init
 pthread_mutex_t tesisatci_kilit = PTHREAD_MUTEX_INITIALIZER;
 
-// 🚒 İtfaiyeci ve su çekici semaforları
+// 🚒 İtfaiyeci ve su çekici semaforları (binary semaphore)
 sem_t itfaiyeci_sem;
 sem_t su_cekici_sem;
 
 // 🏗️ Daire kilitleri ve durum matrisi
 pthread_mutex_t daire_kilitleri[KAT_SAYISI][DAIRE_SAYISI];
-int daire_durumlari[KAT_SAYISI][DAIRE_SAYISI];
-pthread_mutex_t yazici = PTHREAD_MUTEX_INITIALIZER;
+int daire_durumlari[KAT_SAYISI][DAIRE_SAYISI];      // Her dairenin durumu: 0-3, -1,-2
+pthread_mutex_t yazici = PTHREAD_MUTEX_INITIALIZER; // Konsol + log kilidi
 
-// ⏱️ Performans ölçümü için zaman dizileri
+// ⏱️ Performans ölçümü için zaman dizileri (mmap ile ayrılıyor)
 struct timeval (*start_times)[DAIRE_SAYISI];
 struct timeval (*end_times)  [DAIRE_SAYISI];
 
@@ -74,11 +78,11 @@ int tesisatci_al() {
         }
     }
     pthread_mutex_unlock(&tesisatci_kilit);
-    return -1; // Ulaşılamaz durumda
+    return -1; // Hiç kimse boşta değil
 }
 
 /*
- * Tesisatçıyı serbest bırakır
+ * Tesisatçıyı serbest bırakır (i indeksli)
  */
 void tesisatci_bosalt(int i) {
     pthread_mutex_lock(&tesisatci_kilit);
@@ -103,7 +107,7 @@ int elektrikci_al() {
 }
 
 /*
- * Elektrikçiyi serbest bırakır
+ * Elektrikçiyi serbest bırakır (i indeksli)
  */
 void elektrikci_bosalt(int i) {
     pthread_mutex_lock(&elektrikci_kilit);
@@ -118,7 +122,7 @@ void elektrikci_bosalt(int i) {
 void daire_durum_guncelle(int kat, int daire, int tur) {
     pthread_mutex_lock(&yazici);
 
-    // Hata/yangın sonrası her iki iş bitince 'tamam' durumu
+    // Hata/yangın sonrası her iki iş de bitince 'tamam' durumu (3)
     if (tur == 1 && daire_durumlari[kat][daire] == 2)
         daire_durumlari[kat][daire] = 3;
     else if (tur == 2 && daire_durumlari[kat][daire] == 1)
@@ -126,10 +130,10 @@ void daire_durum_guncelle(int kat, int daire, int tur) {
     else
         daire_durumlari[kat][daire] = tur;
 
-    // UI çizimini bozmadan çalıştırır
+    // Canlı arayüzü çiz
     binayi_ciz();
 
-    // 👷 Aktif işçi sayısını göster
+    // Aktif işçi sayısını göster
     printf("Aktif işçi sayısı: %d\n\n", active_workers);
     fflush(stdout);
 
@@ -141,23 +145,28 @@ void daire_durum_guncelle(int kat, int daire, int tur) {
  * (Buna kesinlikle dokunmayın!)
  */
 void binayi_ciz() {
+    // 1) Ekranı temizle
     system("clear");
-    printf("\n🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)\n\n");
 
-    // En üst aktif katı bul
+    // 2) Başlık ve sembol açıklaması
+    printf("\n🏢 BİNA DURUMU "
+           "(⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, "
+           "🟪 Su Baskını, 🟥 Yangın)\n\n");
+
+    // 3) En üst aktif katı bul
     int aktif_kat = -1;
     for (int i = 0; i < KAT_SAYISI; i++)
         for (int j = 0; j < DAIRE_SAYISI; j++)
             if (daire_durumlari[i][j] != 0 && i > aktif_kat)
                 aktif_kat = i;
 
-    // Katları çiz
+    // 4) Katları ve her dairenin durumunu çiz
     for (int i = aktif_kat; i >= 0; i--) {
         printf("Kat %2d | ", i + 1);
         for (int j = 0; j < DAIRE_SAYISI; j++) {
             int d = daire_durumlari[i][j];
             if (i < aktif_kat) {
-                // Alt katlar bitti gösterilir
+                // Alt kat tamamen bitti => 🟩
                 printf(GREEN "🟩 " RESET);
             } else {
                 // Mevcut kat durumu
@@ -179,6 +188,8 @@ void binayi_ciz() {
 
 /*
  * Fisher–Yates karıştırma algoritması
+ * - dizi: karıştırılacak elemanlar
+ * - boyut: dizi uzunluğu
  */
 void karistir(int* dizi, int boyut) {
     for (int i = boyut - 1; i > 0; i--) {
@@ -188,4 +199,3 @@ void karistir(int* dizi, int boyut) {
         dizi[j] = tmp;
     }
 }
-
