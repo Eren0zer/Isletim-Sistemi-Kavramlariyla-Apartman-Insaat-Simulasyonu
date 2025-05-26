@@ -1,0 +1,16 @@
+=== Run #1 ===
+User_time(s): 0.19
+Sys_time(s): 0.12
+Max_RSS(KB): 1936
+Voluntary_CS: 795
+Involuntary_CS: 39
+
+
+=== Run #2 ===
+User_time(s): 0.37
+Sys_time(s): 0.24
+Max_RSS(KB): 1936
+Voluntary_CS: 1542
+Involuntary_CS: 67
+
+

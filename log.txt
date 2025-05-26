@@ -1,0 +1,444 @@
+
+=== KAT 1 İNŞAATI BAŞLADI (PID: 64455) ===
+  [Kat 1] Daire 7 -> İnşaat başladı (Thread 136472160085696)
+  [Kat 1] Daire 7 -> ELEKTRİKÇİ [E1] GİRİYOR ⚡
+  [Kat 1] Daire 4 -> İnşaat başladı (Thread 136472151692992)
+  [Kat 1] Daire 4 -> ELEKTRİKÇİ [E2] GİRİYOR ⚡
+  [Kat 1] Daire 6 -> İnşaat başladı (Thread 136472168478400)
+  [Kat 1] Daire 6 -> SU TESİSATÇISI [T1] GİRİYOR 💧
+  [Kat 1] Daire 5 -> İnşaat başladı (Thread 136472193656512)
+  [Kat 1] Daire 5 -> SU TESİSATÇISI [T2] GİRİYOR 💧
+  [Kat 1] Daire 1 -> İnşaat başladı (Thread 136472143300288)
+  [Kat 1] Daire 1 -> SU TESİSATÇISI [T3] GİRİYOR 💧
+  [Kat 1] Daire 2 -> İnşaat başladı (Thread 136472202049216)
+  [Kat 1] Daire 3 -> İnşaat başladı (Thread 136472185263808)
+  [Kat 1] Daire 8 -> İnşaat başladı (Thread 136472176871104)
+  [Kat 1] Daire 5 -> SU TESİSATI TAMAMLANDI ✅ (T2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | ⬜ ⬜ ⬜ ⬜ 🟦 ⬜ ⬜ ⬜ 
+
+Aktif işçi sayısı: 8
+
+  [Kat 1] Daire 2 -> SU TESİSATÇISI [T2] GİRİYOR 💧
+  [Kat 1] Daire 4 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | ⬜ ⬜ ⬜ 🟨 🟦 ⬜ ⬜ ⬜ 
+
+Aktif işçi sayısı: 8
+
+  [Kat 1] Daire 8 -> ELEKTRİKÇİ [E2] GİRİYOR ⚡
+  [Kat 1] Daire 7 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | ⬜ ⬜ ⬜ 🟨 🟦 ⬜ 🟨 ⬜ 
+
+Aktif işçi sayısı: 8
+
+  [Kat 1] Daire 5 -> ELEKTRİKÇİ [E1] GİRİYOR ⚡
+  [Kat 1] Daire 6 -> SU TESİSATI TAMAMLANDI ✅ (T1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | ⬜ ⬜ ⬜ 🟨 🟦 🟦 🟨 ⬜ 
+
+Aktif işçi sayısı: 8
+
+  [Kat 1] Daire 3 -> SU TESİSATÇISI [T1] GİRİYOR 💧
+  [Kat 1] Daire 1 -> SU TESİSATI TAMAMLANDI ✅ (T3)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | 🟦 ⬜ ⬜ 🟨 🟦 🟦 🟨 ⬜ 
+
+Aktif işçi sayısı: 8
+
+  [Kat 1] Daire 4 -> SU TESİSATÇISI [T3] GİRİYOR 💧
+  [Kat 1] Daire 2 -> SU TESİSATI TAMAMLANDI ✅ (T2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | 🟦 🟦 ⬜ 🟨 🟦 🟦 🟨 ⬜ 
+
+Aktif işçi sayısı: 8
+
+  [Kat 1] Daire 7 -> SU TESİSATÇISI [T2] GİRİYOR 💧
+  [Kat 1] Daire 8 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | 🟦 🟦 ⬜ 🟨 🟦 🟦 🟨 🟨 
+
+Aktif işçi sayısı: 8
+
+  [Kat 1] Daire 6 -> ELEKTRİKÇİ [E2] GİRİYOR ⚡
+  [Kat 1] Daire 5 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | 🟦 🟦 ⬜ 🟨 🟩 🟦 🟨 🟨 
+
+Aktif işçi sayısı: 8
+
+  [Kat 1] Daire 1 -> ELEKTRİKÇİ [E1] GİRİYOR ⚡
+  [Kat 1] Daire 4 -> SU TESİSATI TAMAMLANDI ✅ (T3)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | 🟦 🟦 ⬜ 🟩 🟩 🟦 🟨 🟨 
+
+Aktif işçi sayısı: 7
+
+  [Kat 1] Daire 8 -> SU TESİSATÇISI [T3] GİRİYOR 💧
+  [Kat 1] Daire 3 -> SU TESİSATI TAMAMLANDI ✅ (T1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | 🟦 🟦 🟦 🟩 🟩 🟦 🟨 🟨 
+
+Aktif işçi sayısı: 6
+
+  [Kat 1] Daire 7 -> SU TESİSATI TAMAMLANDI ✅ (T2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | 🟦 🟦 🟦 🟩 🟩 🟦 🟩 🟨 
+
+Aktif işçi sayısı: 6
+
+  [Kat 1] Daire 6 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | 🟦 🟦 🟦 🟩 🟩 🟩 🟩 🟨 
+
+Aktif işçi sayısı: 5
+
+  [Kat 1] Daire 2 -> ELEKTRİKÇİ [E2] GİRİYOR ⚡
+  🔥 [Kat 1] Daire 1 → YANGIN! İTFAİYECİ MÜDAHALE EDİYOR... 🧯
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | 🟥 🟦 🟦 🟩 🟩 🟩 🟩 🟨 
+
+  [Kat 1] Daire 8 -> SU TESİSATI TAMAMLANDI ✅ (T3)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | 🟥 🟦 🟦 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 4
+
+  [Kat 1] Daire 2 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | 🟥 🟩 🟦 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 3
+
+  [Kat 1] Daire 3 -> ELEKTRİKÇİ [E2] GİRİYOR ⚡
+  🔁 [Kat 1] Daire 1 -> Tüm tesisat YENİDEN BAŞLIYOR...
+  [Kat 1] Daire 1 -> SU TESİSATÇISI [T1] GİRİYOR 💧
+  [Kat 1] Daire 3 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | 🟥 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 2
+
+  [Kat 1] Daire 1 -> SU TESİSATI TAMAMLANDI ✅ (T1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | 🟦 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 1
+
+  [Kat 1] Daire 1 -> ELEKTRİKÇİ [E1] GİRİYOR ⚡
+  [Kat 1] Daire 1 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 1
+
+=== KAT 1 TAMAMLANDI ===
+
+=== KAT 2 İNŞAATI BAŞLADI (PID: 64698) ===
+  [Kat 2] Daire 4 -> İnşaat başladı (Thread 136472160085696)
+  [Kat 2] Daire 4 -> ELEKTRİKÇİ [E1] GİRİYOR ⚡
+  [Kat 2] Daire 2 -> İnşaat başladı (Thread 136472202049216)
+  [Kat 2] Daire 2 -> SU TESİSATÇISI [T1] GİRİYOR 💧
+  [Kat 2] Daire 3 -> İnşaat başladı (Thread 136472185263808)
+  [Kat 2] Daire 3 -> ELEKTRİKÇİ [E2] GİRİYOR ⚡
+  [Kat 2] Daire 7 -> İnşaat başladı (Thread 136472023791296)
+  [Kat 2] Daire 7 -> SU TESİSATÇISI [T2] GİRİYOR 💧
+  [Kat 2] Daire 1 -> İnşaat başladı (Thread 136472151692992)
+  [Kat 2] Daire 8 -> İnşaat başladı (Thread 136472176871104)
+  [Kat 2] Daire 5 -> İnşaat başladı (Thread 136472193656512)
+  [Kat 2] Daire 6 -> İnşaat başladı (Thread 136472168478400)
+  [Kat 2] Daire 2 -> SU TESİSATI TAMAMLANDI ✅ (T1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | ⬜ 🟦 ⬜ ⬜ ⬜ ⬜ ⬜ ⬜ 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 8
+
+  [Kat 2] Daire 3 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | ⬜ 🟦 🟨 ⬜ ⬜ ⬜ ⬜ ⬜ 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 8
+
+  [Kat 2] Daire 3 -> SU TESİSATÇISI [T1] GİRİYOR 💧
+  [Kat 2] Daire 1 -> ELEKTRİKÇİ [E2] GİRİYOR ⚡
+  [Kat 2] Daire 7 -> SU TESİSATI TAMAMLANDI ✅ (T2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | ⬜ 🟦 🟨 ⬜ ⬜ ⬜ 🟦 ⬜ 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 8
+
+  [Kat 2] Daire 4 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | ⬜ 🟦 🟨 🟨 ⬜ ⬜ 🟦 ⬜ 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 8
+
+  [Kat 2] Daire 4 -> SU TESİSATÇISI [T2] GİRİYOR 💧
+  [Kat 2] Daire 8 -> ELEKTRİKÇİ [E1] GİRİYOR ⚡
+  [Kat 2] Daire 3 -> SU TESİSATI TAMAMLANDI ✅ (T1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | ⬜ 🟦 🟩 🟨 ⬜ ⬜ 🟦 ⬜ 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 8
+
+  [Kat 2] Daire 1 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | 🟨 🟦 🟩 🟨 ⬜ ⬜ 🟦 ⬜ 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 7
+
+  [Kat 2] Daire 1 -> SU TESİSATÇISI [T1] GİRİYOR 💧
+  [Kat 2] Daire 5 -> ELEKTRİKÇİ [E2] GİRİYOR ⚡
+  [Kat 2] Daire 8 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | 🟨 🟦 🟩 🟨 ⬜ ⬜ 🟦 🟨 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 7
+
+  [Kat 2] Daire 8 -> SU TESİSATÇISI [T3] GİRİYOR 💧
+  [Kat 2] Daire 6 -> ELEKTRİKÇİ [E1] GİRİYOR ⚡
+  [Kat 2] Daire 4 -> SU TESİSATI TAMAMLANDI ✅ (T2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | 🟨 🟦 🟩 🟩 ⬜ ⬜ 🟦 🟨 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 7
+
+  [Kat 2] Daire 6 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | 🟨 🟦 🟩 🟩 ⬜ 🟨 🟦 🟨 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 6
+
+  [Kat 2] Daire 6 -> SU TESİSATÇISI [T2] GİRİYOR 💧
+  [Kat 2] Daire 2 -> ELEKTRİKÇİ [E1] GİRİYOR ⚡
+  [Kat 2] Daire 8 -> SU TESİSATI TAMAMLANDI ✅ (T3)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | 🟨 🟦 🟩 🟩 ⬜ 🟨 🟦 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 6
+
+  💦 [Kat 2] Daire 1 → SU BASKINI! SU ÇEKİCİ GELİYOR... 🚿
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | 🟪 🟦 🟩 🟩 ⬜ 🟨 🟦 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+  [Kat 2] Daire 5 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | 🟪 🟦 🟩 🟩 🟨 🟨 🟦 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 5
+
+  [Kat 2] Daire 5 -> SU TESİSATÇISI [T3] GİRİYOR 💧
+  [Kat 2] Daire 7 -> ELEKTRİKÇİ [E2] GİRİYOR ⚡
+  [Kat 2] Daire 6 -> SU TESİSATI TAMAMLANDI ✅ (T2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | 🟪 🟦 🟩 🟩 🟨 🟩 🟦 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 5
+
+  [Kat 2] Daire 2 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | 🟪 🟩 🟩 🟩 🟨 🟩 🟦 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 4
+
+  [Kat 2] Daire 7 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | 🟪 🟩 🟩 🟩 🟨 🟩 🟩 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 3
+
+  [Kat 2] Daire 5 -> SU TESİSATI TAMAMLANDI ✅ (T3)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | 🟪 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 2
+
+  🔁 [Kat 2] Daire 1 -> Tüm tesisat YENİDEN BAŞLIYOR...
+  [Kat 2] Daire 1 -> SU TESİSATÇISI [T1] GİRİYOR 💧
+  [Kat 2] Daire 1 -> SU TESİSATI TAMAMLANDI ✅ (T1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | 🟦 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 1
+
+  [Kat 2] Daire 1 -> ELEKTRİKÇİ [E1] GİRİYOR ⚡
+  [Kat 2] Daire 1 -> ELEKTRİK TESİSATI TAMAMLANDI ✅ (E1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  2 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 1
+
+=== KAT 2 TAMAMLANDI ===
+
+=== KAT 3 İNŞAATI BAŞLADI (PID: 64875) ===
+  [Kat 3] Daire 2 -> İnşaat başladı (Thread 136472202049216)
+  [Kat 3] Daire 2 -> SU TESİSATÇISI [T1] GİRİYOR 💧
+  [Kat 3] Daire 6 -> İnşaat başladı (Thread 136472040564416)
+  [Kat 3] Daire 6 -> ELEKTRİKÇİ [E1] GİRİYOR ⚡
+  [Kat 3] Daire 4 -> İnşaat başladı (Thread 136472023779008)
+  [Kat 3] Daire 4 -> SU TESİSATÇISI [T2] GİRİYOR 💧
+  [Kat 3] Daire 7 -> İnşaat başladı (Thread 136472032171712)
+  [Kat 3] Daire 7 -> ELEKTRİKÇİ [E2] GİRİYOR ⚡
+  [Kat 3] Daire 5 -> İnşaat başladı (Thread 136472193656512)
+  [Kat 3] Daire 3 -> İnşaat başladı (Thread 136472185263808)
+  [Kat 3] Daire 8 -> İnşaat başladı (Thread 136472048957120)
+  [Kat 3] Daire 8 -> SU TESİSATÇISI [T3] GİRİYOR 💧
+  [Kat 3] Daire 1 -> İnşaat başladı (Thread 136471914739392)
+  🔥 [Kat 3] Daire 6 → YANGIN! İTFAİYECİ MÜDAHALE EDİYOR... 🧯
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  3 | ⬜ ⬜ ⬜ ⬜ ⬜ 🟥 ⬜ ⬜ 
+Kat  2 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+  [Kat 3] Daire 4 -> SU TESİSATI TAMAMLANDI ✅ (T2)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  3 | ⬜ ⬜ ⬜ 🟦 ⬜ 🟥 ⬜ ⬜ 
+Kat  2 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 8
+
+  [Kat 3] Daire 1 -> SU TESİSATÇISI [T2] GİRİYOR 💧
+  [Kat 3] Daire 2 -> SU TESİSATI TAMAMLANDI ✅ (T1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  3 | ⬜ 🟦 ⬜ 🟦 ⬜ 🟥 ⬜ ⬜ 
+Kat  2 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 8
+
+  💦 [Kat 3] Daire 8 → SU BASKINI! SU ÇEKİCİ GELİYOR... 🚿
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  3 | ⬜ 🟦 ⬜ 🟦 ⬜ 🟥 ⬜ 🟪 
+Kat  2 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+  🔁 [Kat 3] Daire 6 -> Tüm tesisat YENİDEN BAŞLIYOR...
+  [Kat 3] Daire 6 -> SU TESİSATÇISI [T1] GİRİYOR 💧
+  🔥 [Kat 3] Daire 7 → YANGIN! İTFAİYECİ MÜDAHALE EDİYOR... 🧯
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  3 | ⬜ 🟦 ⬜ 🟦 ⬜ 🟥 🟥 🟪 
+Kat  2 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+  [Kat 3] Daire 5 -> ELEKTRİKÇİ [E1] GİRİYOR ⚡
+  🔁 [Kat 3] Daire 8 -> Tüm tesisat YENİDEN BAŞLIYOR...
+  💦 [Kat 3] Daire 1 → SU BASKINI! SU ÇEKİCİ GELİYOR... 🚿
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  3 | 🟪 🟦 ⬜ 🟦 ⬜ 🟥 🟥 🟪 
+Kat  2 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+  [Kat 3] Daire 6 -> SU TESİSATI TAMAMLANDI ✅ (T1)
+
+🏢 BİNA DURUMU (⬜ Başlanmadı, 🟦 Su, 🟨 Elektrik, 🟩 Bitti, 🟪 Su Baskını, 🟥 Yangın)
+
+Kat  3 | 🟪 🟦 ⬜ 🟦 ⬜ 🟦 🟥 🟪 
+Kat  2 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+Kat  1 | 🟩 🟩 🟩 🟩 🟩 🟩 🟩 🟩 
+
+Aktif işçi sayısı: 8
+

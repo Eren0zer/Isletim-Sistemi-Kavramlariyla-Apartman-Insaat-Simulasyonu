@@ -1,0 +1,14 @@
+--- Sonuç Özeti ---
+Simülasyon toplam süresi : 177.083 saniye
+En hızlı daire           : Kat 4, Daire 5 (4.490 s)
+En yavaş daire           : Kat 7, Daire 2 (24.586 s)
+Kat 1 ortalama süre     : 6.800 saniye
+Kat 2 ortalama süre     : 10.893 saniye
+Kat 3 ortalama süre     : 8.625 saniye
+Kat 4 ortalama süre     : 12.712 saniye
+Kat 5 ortalama süre     : 11.722 saniye
+Kat 6 ortalama süre     : 6.722 saniye
+Kat 7 ortalama süre     : 13.104 saniye
+Kat 8 ortalama süre     : 8.333 saniye
+Kat 9 ortalama süre     : 13.139 saniye
+Kat 10 ortalama süre     : 15.938 saniye
